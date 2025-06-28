@@ -49,7 +49,7 @@ This ensures a new image every time the page reloads!
    ```bash
    git clone https://github.com/your-username/landing-page.git
    cd landing-page
-````
+
 
 2. **Install dependencies**
 
@@ -69,8 +69,8 @@ This ensures a new image every time the page reloads!
 
 ## 🌐 Live Demo
 
-[Click here to view live](https://your-deployment-link.vercel.app/)
-*(Deployed on Vercel or Netlify)*
+
+[![Live Demo](https://img.shields.io/badge/Live-Demo-green?style=for-the-badge&logo=vercel)](https://react-landing-page-flax.vercel.app/)
 
 ---
 
