@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(rgba(9, 0, 77, 0.65), rgba(213, 211, 226, 0.65)),
+    url("https://picsum.photos/1920/1080?random") no-repeat center/cover;
+  padding: 20px 8%;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.logo {
+  max-width: 160px;
+  height: auto;
+  cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #f5169d;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 18px;
+  background-color: #f5169d;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #d21385;
+}
+
+.btn img {
+  width: 20px;
+  height: 20px;
+}
+
+
+
+
+/* Content */
+.content{
+  margin-top: 15%;
+  color: white;
+  max-width: 620px;
+
+}
+
+
+.content h1 {
+  font-size: 70px;
+  font-weight: 800;
+  line-height: 85px;
+  margin-bottom: 25px;
+}
+
+.content form {
+  display: flex;
+  align-items: center;
+  background:white;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.content form input {
+  border: 0;
+  outline: 0;
+  width: 100%;
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+.content form .btn {
+  font-size: 15px;
+  padding: 10px 30px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .btn {
+    align-self: flex-end;
+  }
+}
